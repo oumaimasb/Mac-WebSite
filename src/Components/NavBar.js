@@ -12,8 +12,8 @@ const NavBar = () => {
           alt="Apple"
         />
       </a>
-      <a href="#Mac">Mac</a>
-      <a href="#iPad">iPad</a>
+      <a href="/Mac">Mac</a>
+      <a href="/iPad">iPad</a>
       <a href="#iPhone">iPhone</a>
       <a href="#Music">Music</a>
       <a href="#Assistance">Assistance</a>

@@ -1,0 +1,42 @@
+.ipad-banner {
+  display: grid;
+  padding: 10%;
+  height: 100vh;
+}
+
+.ipad-banner p {
+  font-size: 40px;
+}
+.ipad-banner span {
+  color: rgb(211, 56, 255);
+}
+
+.ipad-banner-img {
+  width: 100%;
+  align-self: center;
+}
+
+.ipad-btn {
+  background: rgb(0, 113, 227);
+  color: #fff;
+  width: 100px;
+  align-items: center;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.ipad-btn2 {
+  outline: none;
+  border: none;
+  width: 100px;
+  background-color: transparent;
+  padding: 0.5rem;
+}
+
+.svg {
+  display: inline-block;
+}

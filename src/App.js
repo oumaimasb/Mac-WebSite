@@ -1,12 +1,32 @@
+import React from "react";
 import "./App.css";
-import Banner from "./Components/Banner";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import Mac from "./Pages/Mac";
 import NavBar from "./Components/NavBar";
+import { Ipad } from "./Pages/Ipad";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
+      <Router>
+        <div>
+          <NavBar />
+          <Switch>
+            <Route exact path="/Mac">
+              <Mac />
+            </Route>
+            <Route path="/iPad">
+              <Ipad />
+            </Route>
+            <Redirect to="/Mac" />
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }

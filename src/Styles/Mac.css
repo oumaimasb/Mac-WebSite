@@ -1,0 +1,29 @@
+.mac-banner {
+  display: grid;
+  padding: 10%;
+  height: 100vh;
+}
+
+.mac-banner p {
+  font-size: 40px;
+}
+.mac-banner span {
+  color: yellow;
+}
+.mac-banner-img {
+  width: 100%;
+  align-self: center;
+}
+
+.mac-btn {
+  background: rgb(0, 113, 227);
+  color: #fff;
+  width: 100px;
+  align-items: center;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
