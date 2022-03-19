@@ -1,0 +1,16 @@
+.banner {
+  display: grid;
+  padding: 10%;
+  height: 100vh;
+}
+
+.banner p {
+  font-size: 40px;
+}
+.banner span {
+  color: yellow;
+}
+.banner-img {
+  width: 100%;
+  align-self: center;
+}
