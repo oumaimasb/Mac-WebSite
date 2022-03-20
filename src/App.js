@@ -9,6 +9,7 @@ import {
 import Mac from "./Pages/Mac";
 import NavBar from "./Components/NavBar";
 import { Ipad } from "./Pages/Ipad";
+import AboutMac from "./util/AboutMac";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           <Switch>
             <Route exact path="/Mac">
               <Mac />
+            </Route>
+            <Route path="/AboutMac">
+              <AboutMac />
             </Route>
             <Route path="/iPad">
               <Ipad />

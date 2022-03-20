@@ -1,0 +1,31 @@
+#Présentation {
+  display: grid;
+  padding: 70px;
+}
+
+#Présentation h5 {
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+#Présentation h1 {
+  font-size: 100px;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+#Présentation p {
+  margin: 20px 150px 150px 150px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+nav {
+  padding-top: 80px;
+  float: right;
+}
+nav a {
+  display: inline;
+  padding: 14px 16px;
+  text-decoration: none;
+}
